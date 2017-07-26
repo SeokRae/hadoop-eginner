@@ -20,7 +20,7 @@ public class WordCount {
 			System.exit(2);
 		}
 		Job job = new Job(conf, "WordCount");
-		
+	
 		job.setJarByClass(WordCount.class);
 		job.setMapperClass(WordCountMapper.class);
 		job.setReducerClass(WordCountReducer.class);
