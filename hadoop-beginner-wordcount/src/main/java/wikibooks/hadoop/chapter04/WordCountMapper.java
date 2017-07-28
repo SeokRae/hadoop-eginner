@@ -1,4 +1,3 @@
-
 package wikibooks.hadoop.chapter04;
 
 import java.io.IOException;
