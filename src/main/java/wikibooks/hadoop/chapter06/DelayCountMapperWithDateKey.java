@@ -9,7 +9,6 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import wikibooks.hadoop.common.AirlinePerformanceParser;
 
-
 public class DelayCountMapperWithDateKey extends Mapper<LongWritable, Text, DateKey, IntWritable> {
 
 	// map 출력값
@@ -39,6 +38,7 @@ public class DelayCountMapperWithDateKey extends Mapper<LongWritable, Text, Date
 		} else {
 			context.getCounter(DelayCounters.not_available_departure).increment(1);
 		}
+
 		// 도착 지연 데이터 출력
 		if (parser.isArriveDelayAvailable()) {
 			if (parser.getArriveDelayTime() > 0) {

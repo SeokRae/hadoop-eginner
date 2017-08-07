@@ -4,7 +4,7 @@ import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
 public class GroupKeyComparator extends WritableComparator {
-
+ 
 	protected GroupKeyComparator() {
 		super(DateKey.class, true);
 	}

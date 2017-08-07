@@ -25,10 +25,8 @@ public class AirlinePerformanceParser {
 	public AirlinePerformanceParser(Text text) {
 		try {
 			String[] colums = text.toString().split(",");
-
 			// 운항 연도 설정
 			year = Integer.parseInt(colums[0]);
-
 			// 운항 월 설정
 			month = Integer.parseInt(colums[1]);
 

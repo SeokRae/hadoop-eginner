@@ -30,6 +30,7 @@ public class DelayCountWithDateKey extends Configured implements Tool {
 			System.err.println("Usage: DelayCountWithDateKey <in> <out>");
 			System.exit(2);
 		}
+		
 		// Job 이름 설정
 		Job job = new Job(getConf(), "DelayCountWithDateKey");
 

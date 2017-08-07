@@ -41,6 +41,7 @@ public class DelayCountReducerWithDateKey extends Reducer<DateKey, IntWritable, 
 				sum += value.get();
 				bMonth = key.getMonth();
 			}
+			
 			if (key.getMonth() == bMonth) {
 				outputKey.setYear(key.getYear().substring(2));
 				outputKey.setMonth(key.getMonth());

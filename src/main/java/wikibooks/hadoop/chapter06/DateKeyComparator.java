@@ -11,7 +11,7 @@ public class DateKeyComparator extends WritableComparator {
 	@SuppressWarnings("rawtypes")
 	@Override
 	public int compare(WritableComparable w1, WritableComparable w2) {
-		// 복합키 클래스 캐스팅
+		// 복합키 클래스 캐스팅 
 		DateKey k1 = (DateKey) w1;
 		DateKey k2 = (DateKey) w2;
 
