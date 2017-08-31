@@ -1,12 +1,6 @@
-# hadoop_beginner
-* CentOS 7.3(1611)
-* Java 1.8.0_131
-* Hadoop 1.2.1
-* Eclipse(oxygen)
-* Apache Maven 3.5.0
+# Hadoop-Beginner
 
-
-# 환경설정
+# Dev Environment Settings
 * CPU : AMD A8-7650K Radeon R7, 10 Compute Cores 4C+6G 3.30GHz
 * RAM : 16.00GB
 * OS : Windows 10 Pro 64Bit
