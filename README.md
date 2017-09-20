@@ -16,5 +16,10 @@
 * Apache Maven: apache-maven-3.5.0
 
 # Wikibooks02 ~ 04(SecondaryNode ~ )
+* Processors  : 2
 * Memory      : 2GB
-* ...
+* OS          : CentOS Linux release 7.3.1611
+* Java        : jdk-8u131-linux-x64
+* Hadoop      : hadoop-1.2.1(Part01 ~ Part03), hadoop-2.8.1(Part04 ~)
+* Eclipse     : Oxygen
+* Apache Maven: apache-maven-3.5.0
